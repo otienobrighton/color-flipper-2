@@ -1,0 +1,27 @@
+body{
+    transition: background-color .7s;
+}
+section#color-display{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px auto;
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba( 0, 0, 0, 0.5);
+    padding: 4rem;
+    border-radius: .5rem;
+}
+section#color-display h1{
+    font-weight: 900;
+}
+section#color-display #new-color-button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+section#color-display #new-color-button:hover{
+    background-color: darkgray;
+}
